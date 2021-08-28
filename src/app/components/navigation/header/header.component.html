@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row fxLayoutAlign="space-between center">
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <div fxHide.gt-sm="">
+        <button mat-icon-button (click)="sidenavToggle.emit()">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+      <div class="logo-image">
+        <a routerLink="/">
+          <img class='logo-image' src="../../../../assets/images/cropped-logo-1.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div fxLayoutAlign="end end">
+      <button mat-raised-button color="basic" fxShow={{view}} (click)="login()">Login</button>
+      <button mat-raised-button color="basic" fxShow={{!view}} (click)="logOut()">LogOut</button>
+          </div>
+
+  </mat-toolbar-row>
+</mat-toolbar>

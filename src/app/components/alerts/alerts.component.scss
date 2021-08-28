@@ -1,0 +1,69 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  flex-direction: column;
+}
+
+th.mat-header-cell{
+  //text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+td.mat-cell{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mat-row-format{
+  font-weight: 700;
+}
+
+.severity {
+
+  &-level-1 {
+    color: #99ff33;
+  }
+
+  &-level-2 {
+    color: #66cc00;
+  }
+
+  &-level-3 {
+    color: #339900;
+  }
+
+  &-level-4 {
+    color: #336600;
+  }
+
+  &-level-5 {
+    color: #003300;
+  }
+
+  &-level-6 {
+    color: #996600;
+  }
+
+  &-level-7 {
+    color: #ff3300;
+  }
+
+  &-level-8 {
+    color: #cc3300;
+  }
+
+  &-level-9 {
+    color: #990000;
+  }
+
+  &-level-10 {
+    color: #660000;
+  }
+}
